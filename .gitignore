@@ -1,0 +1,11 @@
+data/
+datasets/
+FER-2013/
+CK+/
+*.pth
+*.pt
+*.h5
+.ipynb_checkpoints/
+__pycache__/
+venv/
+.DS_Store
