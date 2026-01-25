@@ -49,22 +49,22 @@ Datasets are not included in this repository due to license restrictions.
 ---
 
 ## Files
-- `project_cv_final.ipynb` — complete implementation (training, evaluation, analysis)
+- `emotion_based_hci.ipynb` — complete implementation (training, evaluation, analysis)
 - `requirements.txt` — dependencies
 
 ---
 
-## Team and Contribution
+## 👥 Team and Contribution
 This was a group coursework project.
 
-Primary responsibility included:
-- Model design and implementation
-- Training and evaluation of CNN, CBAM, and EfficientNet models
-- Performance comparison and result analysis
+- **Achuth Reddy Bangaru** – Model design and implementation, training and evaluation
+  of CNN, CBAM, and EfficientNet models, performance analysis
+- **Praveen LS** ([@praveen-ls](https://github.com/praveen-ls)) – Data preprocessing,
+  dataset handling, and experimentation support
 
 ---
 
 ## How to Run
 ```bash
 pip install -r requirements.txt
-jupyter notebook project_cv_final.ipynb
+jupyter notebook emotion_based_hci.ipynb
