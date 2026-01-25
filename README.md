@@ -40,6 +40,37 @@ transfer learning for facial emotion recognition.
 
 ---
 
+## 📊 Evaluation Visualizations
+
+### Confusion Matrix
+The confusion matrix shows class-wise classification performance across all
+8 facial emotion categories.
+
+![Confusion Matrix](confusion_matrix.png)
+
+---
+
+### ROC Curve
+The ROC curve illustrates the trade-off between true positive rate and false
+positive rate for the trained model.
+
+![ROC Curve](roc_curve.png)
+
+---
+
+## 🔍 Model Interpretability (Saliency Maps)
+
+Saliency maps highlight facial regions that most strongly influence the model’s
+predictions, improving transparency and explainability.
+
+### Happy Emotion
+![Saliency – Happy](saliency_happy.png)
+
+### Anger Emotion
+![Saliency – Anger](saliency_anger.png)
+
+---
+
 ## Dataset
 - FER-2013
 - CK+ (Extended Cohn–Kanade)
@@ -68,3 +99,4 @@ This was a group coursework project.
 ```bash
 pip install -r requirements.txt
 jupyter notebook emotion_based_hci.ipynb
+
