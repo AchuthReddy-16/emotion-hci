@@ -16,6 +16,7 @@ monitoring, and intelligent user interfaces.
 - Baseline Convolutional Neural Network (CNN)
 - CBAM-Attention CNN (Channel + Spatial Attention)
 - EfficientNet-B0 (Transfer Learning with ImageNet weights)
+- **Vision Transformer (ViT-B/16)** - Transformer-based architecture with self-attention mechanisms
 
 ---
 
@@ -33,10 +34,14 @@ monitoring, and intelligent user interfaces.
 |------|---------------|
 | CNN | 47.25% |
 | CBAM-CNN | 55.98% |
-| EfficientNet-B0 | **66.49%** |
+| EfficientNet-B0 | 66.49% |
+| **Vision Transformer (ViT-B/16)** | **TBD** (Run notebook to see results) |
 
-EfficientNet-B0 achieved the best performance, demonstrating the effectiveness of
-transfer learning for facial emotion recognition.
+The Vision Transformer (ViT) model uses a transformer-based architecture with self-attention mechanisms, which can capture long-range dependencies in facial features. It is expected to achieve competitive or improved accuracy compared to CNN-based models. The model includes:
+- Pretrained ImageNet weights for better feature extraction
+- Enhanced data augmentation (rotation, color jitter, affine transforms)
+- Progressive fine-tuning (last 4 transformer blocks + classifier)
+- Advanced training techniques (gradient clipping, cosine annealing with warm restarts)
 
 ---
 
@@ -89,7 +94,7 @@ Datasets are not included in this repository due to license restrictions.
 This was a group coursework project.
 
 - **Achuth Reddy Bangaru** – Model design and implementation, training and evaluation
-  of CNN, CBAM, and EfficientNet models, performance analysis
+  of CNN, CBAM, EfficientNet, and Vision Transformer models, performance analysis
 - **Praveen LS** ([@praveen-ls](https://github.com/praveen-ls)) – Data preprocessing,
   dataset handling, and experimentation support
 
