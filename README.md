@@ -243,13 +243,14 @@ This project was developed as a group coursework project.
 
 - **Achuth Reddy Bangaru**
   - Model design and implementation
-  - Training and evaluation of CNN, CBAM, EfficientNet, and Vision Transformer models
+  - Training and evaluation of CBAM, EfficientNet, and Vision Transformer models
   - Performance analysis and optimization
   - Model interpretability (saliency maps)
 
 - **Praveen LS** ([@praveen-ls](https://github.com/praveen-ls))
   - Data preprocessing pipeline
   - Dataset handling and organization
+  - Training and evaluation of CNN
   - Experimentation support
 
 ---
